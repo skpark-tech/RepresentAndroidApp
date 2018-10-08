@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    card_view:cardCornerRadius="4dp"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:id="@+id/partyName"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/pt_serif_bold"
+            android:gravity="center_vertical"
+            android:text="Party"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/districtName"
+            android:layout_alignStart="@+id/contactForm"
+            android:fontFamily="@font/pt_serif_bold"
+            android:gravity="center_vertical"
+            android:text="Name"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/contactForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="22dp"
+            android:layout_marginStart="16dp"
+            android:autoLink="all"
+            android:fontFamily="@font/pt_serif_bold"
+            android:gravity="center_vertical"
+            android:text="contactForm"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/districtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="district"
+            android:textSize="10dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/typeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/txtName"
+            android:layout_below="@+id/districtName"
+            android:fontFamily="@font/pt_serif_bold"
+            android:text="typeName"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/contactButton"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/txtName"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/pt_serif_bold"
+            android:text="Contact" />
+
+        <Button
+            android:id="@+id/detailsButton"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/txtName"
+            android:layout_marginEnd="25dp"
+            android:fontFamily="@font/pt_serif_bold"
+            android:text="Details" />
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

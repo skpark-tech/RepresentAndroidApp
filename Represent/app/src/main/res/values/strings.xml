@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Represent</string>
+    <string name="government_image_content_description">Government Image</string>
+    <string name="represent_string">Represent!</string>
+    <string name="top_bar_content_description">Top Bar</string>
+    <string name="zipcodeString">ZipCode</string>
+    <string name="currentLocationString">Current Location</string>
+    <string name="randomLocationString">Random Location</string>
+    <string name="searchString">Search!</string>
+    <string name="zipcodeHintString">Zipcode</string>
+    <string name="requestZipcodeString">Enter Zipcode :</string>
+</resources>
