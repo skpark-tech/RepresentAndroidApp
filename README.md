@@ -1,6 +1,6 @@
 # prog02b-fa18-skpark-tech
 
-Name : Sung Kyu Park
+Name : Sung Kyu Park \n
 App Description : Application that find the representative of an input zipcode.
 Zip codes could be inserted manually, fetched from current location, or randomly generated.
 It displays the following information of the representative:
