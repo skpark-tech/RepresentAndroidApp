@@ -2,6 +2,10 @@
 
 ## Name :   
 Sung Kyu Park  
+  
+## Walk Through   
+https://youtu.be/b6lP9hWDk9E
+
 ## App Description :   
 Application that find the representative of an input zipcode.  
 Zip codes could be inserted manually, fetched from current location, or randomly generated.  
