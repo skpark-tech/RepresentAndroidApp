@@ -4,7 +4,7 @@ Name : Sung Kyu Park
 App Description : Application that find the representative of an input zipcode.
 Zip codes could be inserted manually, fetched from current location, or randomly generated.
 It displays the following information of the representative:
-- Names
+- Name
 - Party
 - Contact
 - Chamber
@@ -17,6 +17,8 @@ The Detailed View provides
 
 ![Alt text](screenshots/main.png?raw=true "Main")
 ![Alt text](screenshots/search.png?raw=true "Main")
+
+
 ![Alt text](screenshots/congressional.png?raw=true "Main")
 ![Alt text](screenshots/detailed.png?raw=true "Main")
 
