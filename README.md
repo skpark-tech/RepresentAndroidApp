@@ -1,4 +1,4 @@
-# prog02b-fa18-skpark-tech
+# Represent! Android Application
 
 ## Name :   
 Sung Kyu Park  
